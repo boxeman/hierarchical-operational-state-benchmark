@@ -1,4 +1,4 @@
-﻿# Public Code and Reproducibility Release Plan
+# Public Code and Reproducibility Release Plan
 
 Date: 2026-08-17
 
@@ -316,41 +316,43 @@ date-released: "2026-08-17"
 
 ## Data/Code Availability Update
 
-Current placeholder in `DATA_CODE_AVAILABILITY_STATEMENT.md` should be replaced after release.
+The public GitHub repository and release page are now available:
 
-Before public release:
+- Repository: https://github.com/boxeman/hierarchical-operational-state-benchmark
+- GitHub release `v0.1.0`: https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
 
-> The benchmark code and synthetic-data-generation scripts are available in the reviewer/audit package and will be made available in a public repository upon publication or acceptance.
+Current manuscript-facing wording:
 
-After public release:
+> Code and synthetic benchmark materials are available at:
+> https://github.com/boxeman/hierarchical-operational-state-benchmark
+>
+> The manuscript release candidate is archived as GitHub release `v0.1.0`:
+> https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
 
-> The benchmark code, synthetic scenario generator, configuration files, manuscript-facing output tables, and figure-generation artifacts are available at `[repository URL]`, archived at `[DOI/release link]`. All data used in the study are synthetic and can be regenerated from the supplied configuration files.
+A DOI-backed archive should be added if the repository is later deposited through Zenodo or another archival service.
 
 ## Public Release Checklist
 
-- [ ] Choose repository name.
-- [ ] Choose license.
-- [ ] Create clean release folder.
+- [x] Choose repository name.
+- [x] Choose license.
+- [x] Create clean release folder.
 - [ ] Move source into `src/ai_mla_monitor/` or decide to keep flat scripts for v0.1.
-- [ ] Remove local paths from public docs.
-- [ ] Add README.
-- [ ] Add `SECURITY_AND_SAFETY.md`.
-- [ ] Add `CITATION.cff`.
-- [ ] Add `.gitignore`.
-- [ ] Add minimal tests or smoke assertions.
-- [ ] Run smoke test from clean folder.
-- [ ] Run default manuscript config or document expected runtime.
-- [ ] Create GitHub repository.
-- [ ] Create release tag.
+- [x] Remove local paths from public docs.
+- [x] Add README.
+- [x] Add `SECURITY_AND_SAFETY.md`.
+- [x] Add `CITATION.cff`.
+- [x] Add `.gitignore`.
+- [x] Add minimal tests or smoke assertions.
+- [x] Run smoke test from clean folder.
+- [x] Run default manuscript config or document expected runtime.
+- [x] Create GitHub repository.
+- [x] Create release tag.
 - [ ] Archive on Zenodo.
-- [ ] Update `DATA_CODE_AVAILABILITY_STATEMENT.md`.
-- [ ] Update manuscript, cover letter, and submission decision brief with repository/DOI.
+- [x] Update `DATA_CODE_AVAILABILITY_STATEMENT.md`.
+- [x] Update manuscript and submission materials with repository/release link.
 
 ## Immediate Next Action
 
 The next implementation step after this plan should be:
 
-**Create a clean `release_candidate/` folder that contains only public-release-appropriate files, then run the smoke test from that folder.**
-
-This should happen before GitHub/Zenodo publication so the public release is tested in a clean layout rather than accidentally depending on local development paths.
-
+**Create a DOI-backed archive, preferably through Zenodo, and then update the citation metadata and manuscript availability statement with the DOI.**
