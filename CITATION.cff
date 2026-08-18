@@ -1,0 +1,9 @@
+﻿cff-version: 1.2.0
+title: "A synthetic mechanism benchmark for hierarchical operational-state monitoring of AI misuse"
+message: "If you use this benchmark, please cite the manuscript and archived release."
+authors:
+  - family-names: "Blaszczak-Boxe"
+    given-names: "Christopher"
+version: "0.1.0"
+date-released: "2026-08-17"
+

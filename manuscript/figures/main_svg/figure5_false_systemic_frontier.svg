@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1380" viewBox="0 0 1100 1380">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#222">Figure 5. False-systemic stress testing and product-investigation tradeoff</text>
+  <text x="40" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">A</text>
+  <text x="68" y="82" font-family="Arial, sans-serif" font-size="16" fill="#444">Benign coordinated lookalikes should not trigger product investigation</text>
+  <g transform="translate(50 100) scale(1.02040816326531)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">A. Adversarial false-systemic routing stress test</text>
+<text x="68.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">A. Benign lookalikes routed to product investigation</text>
+<rect x="68" y="88" width="390" height="240" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="328.0" x2="458" y2="328.0" stroke="#e5e5e5"/>
+<text x="60.0" y="332.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="68" y1="280.0" x2="458" y2="280.0" stroke="#e5e5e5"/>
+<text x="60.0" y="284.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.1</text>
+<line x1="68" y1="232.0" x2="458" y2="232.0" stroke="#e5e5e5"/>
+<text x="60.0" y="236.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="68" y1="184.0" x2="458" y2="184.0" stroke="#e5e5e5"/>
+<text x="60.0" y="188.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.3</text>
+<line x1="68" y1="136.0" x2="458" y2="136.0" stroke="#e5e5e5"/>
+<text x="60.0" y="140.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.4</text>
+<line x1="68" y1="88.0" x2="458" y2="88.0" stroke="#e5e5e5"/>
+<text x="60.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.6</text>
+<rect x="81.5" y="317.2" width="38.0" height="10.8" fill="#54a24b"/>
+<title>Learned hierarchy: 0.025 product-investigation rate</title>
+<text x="100.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Learned hier.</text>
+<text x="100.5" y="310.2" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.025</text>
+<rect x="146.5" y="328.0" width="38.0" height="0.0" fill="#f58518"/>
+<title>Learned flat: 0.000 product-investigation rate</title>
+<text x="165.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="165.5" y="321.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="211.5" y="107.4" width="38.0" height="220.6" fill="#e45756"/>
+<title>Typed system rule: 0.506 product-investigation rate</title>
+<text x="230.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="230.5" y="100.4" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.506</text>
+<rect x="276.5" y="116.5" width="38.0" height="211.5" fill="#e45756"/>
+<title>System rule: 0.485 product-investigation rate</title>
+<text x="295.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">System rule</text>
+<text x="295.5" y="109.5" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.485</text>
+<rect x="341.5" y="118.6" width="38.0" height="209.4" fill="#e45756"/>
+<title>Account rule: 0.480 product-investigation rate</title>
+<text x="360.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Acct. rule</text>
+<text x="360.5" y="111.6" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.480</text>
+<rect x="406.5" y="290.9" width="38.0" height="37.1" fill="#b279a2"/>
+<title>No uncertainty: 0.085 product-investigation rate</title>
+<text x="425.5" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<text x="425.5" y="283.9" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.085</text>
+<text x="540.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">B. Benign lookalikes routed to human review</text>
+<rect x="540" y="88" width="365" height="240" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="540" y1="328.0" x2="905" y2="328.0" stroke="#e5e5e5"/>
+<text x="532.0" y="332.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="540" y1="280.0" x2="905" y2="280.0" stroke="#e5e5e5"/>
+<text x="532.0" y="284.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="540" y1="232.0" x2="905" y2="232.0" stroke="#e5e5e5"/>
+<text x="532.0" y="236.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.4</text>
+<line x1="540" y1="184.0" x2="905" y2="184.0" stroke="#e5e5e5"/>
+<text x="532.0" y="188.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.6</text>
+<line x1="540" y1="136.0" x2="905" y2="136.0" stroke="#e5e5e5"/>
+<text x="532.0" y="140.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.8</text>
+<line x1="540" y1="88.0" x2="905" y2="88.0" stroke="#e5e5e5"/>
+<text x="532.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.0</text>
+<rect x="553.4" y="328.0" width="34.0" height="0.0" fill="#54a24b"/>
+<title>Learned hierarchy: 0.000 human-review rate</title>
+<text x="570.4" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Learned hier.</text>
+<text x="570.4" y="321.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="614.2" y="107.4" width="34.0" height="220.6" fill="#f58518"/>
+<title>Learned flat: 0.919 human-review rate</title>
+<text x="631.2" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="631.2" y="100.4" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.919</text>
+<rect x="675.1" y="323.6" width="34.0" height="4.4" fill="#e45756"/>
+<title>Typed system rule: 0.018 human-review rate</title>
+<text x="692.1" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="692.1" y="316.6" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.018</text>
+<rect x="735.9" y="316.3" width="34.0" height="11.7" fill="#e45756"/>
+<title>System rule: 0.049 human-review rate</title>
+<text x="752.9" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">System rule</text>
+<text x="752.9" y="309.3" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.049</text>
+<rect x="796.8" y="319.0" width="34.0" height="9.0" fill="#e45756"/>
+<title>Account rule: 0.038 human-review rate</title>
+<text x="813.8" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Acct. rule</text>
+<text x="813.8" y="312.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.038</text>
+<rect x="857.6" y="326.3" width="34.0" height="1.7" fill="#b279a2"/>
+<title>No uncertainty: 0.007 human-review rate</title>
+<text x="874.6" y="345.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<text x="874.6" y="319.3" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.007</text>
+<text x="68.0" y="392.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">C. Learned hierarchy: product-investigation rate by benign lookalike family</text>
+<rect x="68" y="410" width="837" height="135" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="545.0" x2="905" y2="545.0" stroke="#e5e5e5"/>
+<text x="60.0" y="549.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.000</text>
+<line x1="68" y1="477.5" x2="905" y2="477.5" stroke="#e5e5e5"/>
+<text x="60.0" y="481.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.107</text>
+<line x1="68" y1="410.0" x2="905" y2="410.0" stroke="#e5e5e5"/>
+<text x="60.0" y="414.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.214</text>
+<rect x="100.8" y="545.0" width="54.0" height="0.0" fill="#54a24b"/>
+<title>Authorized testing: 0.000 product-investigation rate</title>
+<text x="127.8" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Authorized testing</text>
+<text x="127.8" y="538.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="220.4" y="545.0" width="54.0" height="0.0" fill="#54a24b"/>
+<title>Classroom/lab: 0.000 product-investigation rate</title>
+<text x="247.4" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Classroom/lab</text>
+<text x="247.4" y="538.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="339.9" y="545.0" width="54.0" height="0.0" fill="#54a24b"/>
+<title>Copied public example: 0.000 product-investigation rate</title>
+<text x="366.9" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Copied public example</text>
+<text x="366.9" y="538.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="459.5" y="545.0" width="54.0" height="0.0" fill="#54a24b"/>
+<title>Dual-use research: 0.000 product-investigation rate</title>
+<text x="486.5" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Dual-use research</text>
+<text x="486.5" y="538.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="579.1" y="519.6" width="54.0" height="25.4" fill="#54a24b"/>
+<title>Public-news burst: 0.040 product-investigation rate</title>
+<text x="606.1" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Public-news burst</text>
+<text x="606.1" y="512.6" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.040</text>
+<rect x="698.6" y="545.0" width="54.0" height="0.0" fill="#54a24b"/>
+<title>Support/debugging: 0.000 product-investigation rate</title>
+<text x="725.6" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Support/debugging</text>
+<text x="725.6" y="538.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="818.2" y="448.6" width="54.0" height="96.4" fill="#54a24b"/>
+<title>frontier_legitimate_coordination: 0.153 product-investigation rate</title>
+<text x="845.2" y="562.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">frontier_legitimate_coordination</text>
+<text x="845.2" y="441.6" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.153</text>
+<text x="68.0" y="594.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Adversarial false-systemic accounts are benign coordinated activity that should not trigger product investigation.</text>
+</g>
+  <line x1="40" y1="760" x2="1060" y2="760" stroke="#ddd" stroke-width="2"/>
+  <text x="40" y="810" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">B</text>
+  <text x="68" y="810" font-family="Arial, sans-serif" font-size="16" fill="#444">Tuning the adversarial false-alert penalty exposes a product-investigation frontier</text>
+  <g transform="translate(50 830) scale(1.02040816326531)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">B. Product-investigation operating frontier</text>
+<text x="92.0" y="64.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Validation-tuned learned hierarchy under adversarial false-alert penalties</text>
+<rect x="92" y="82" width="590" height="390" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="92.0" y1="82" x2="92.0" y2="472" stroke="#e5e5e5"/>
+<text x="92.0" y="494.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">0</text>
+<line x1="239.5" y1="82" x2="239.5" y2="472" stroke="#e5e5e5"/>
+<text x="239.5" y="494.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">3</text>
+<line x1="387.0" y1="82" x2="387.0" y2="472" stroke="#e5e5e5"/>
+<text x="387.0" y="494.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">6</text>
+<line x1="534.5" y1="82" x2="534.5" y2="472" stroke="#e5e5e5"/>
+<text x="534.5" y="494.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">8</text>
+<line x1="682.0" y1="82" x2="682.0" y2="472" stroke="#e5e5e5"/>
+<text x="682.0" y="494.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">11</text>
+<line x1="92" y1="472.0" x2="682" y2="472.0" stroke="#e5e5e5"/>
+<text x="82.0" y="476.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="92" y1="374.5" x2="682" y2="374.5" stroke="#e5e5e5"/>
+<text x="82.0" y="378.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">56</text>
+<line x1="92" y1="277.0" x2="682" y2="277.0" stroke="#e5e5e5"/>
+<text x="82.0" y="281.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">111</text>
+<line x1="92" y1="179.5" x2="682" y2="179.5" stroke="#e5e5e5"/>
+<text x="82.0" y="183.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">167</text>
+<line x1="92" y1="82.0" x2="682" y2="82.0" stroke="#e5e5e5"/>
+<text x="82.0" y="86.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">223</text>
+<text x="387.0" y="524.0" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" fill="#222">Adversarial benign product-investigation alerts</text>
+<text x="30" y="277.0" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" fill="#222" transform="rotate(-90 30 277.0)">Missed true product investigations</text>
+<polyline points="92.0,204.2 301.8,248.0" fill="none" stroke="#54a24b" stroke-width="2.2"/>
+<line x1="92.0" y1="204.2" x2="92.0" y2="204.2" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="92.0" y1="200.2" x2="92.0" y2="208.2" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="92.0" y1="200.2" x2="92.0" y2="208.2" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="92.0" y1="163.0" x2="92.0" y2="236.6" stroke="#222" stroke-width="1.2"/>
+<line x1="88.0" y1="163.0" x2="96.0" y2="163.0" stroke="#222" stroke-width="1.2"/>
+<line x1="88.0" y1="236.6" x2="96.0" y2="236.6" stroke="#222" stroke-width="1.2"/>
+<circle cx="92.0" cy="204.2" r="6" fill="#54a24b"><title>penalty=0.005-0.05; false alerts=0; missed=153</title></circle>
+<circle cx="92.0" cy="204.2" r="11" fill="none" stroke="#54a24b" stroke-width="1.4"/>
+<text x="100.0" y="193.2" font-family="Arial" font-size="11" font-weight="500" text-anchor="start" fill="#222">0.005-0.05</text>
+<line x1="127.7" y1="248.0" x2="537.8" y2="248.0" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="127.7" y1="244.0" x2="127.7" y2="252.0" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="537.8" y1="244.0" x2="537.8" y2="252.0" stroke="#222" stroke-width="1.1" opacity="0.8"/>
+<line x1="301.8" y1="208.1" x2="301.8" y2="286.1" stroke="#222" stroke-width="1.2"/>
+<line x1="297.8" y1="208.1" x2="305.8" y2="208.1" stroke="#222" stroke-width="1.2"/>
+<line x1="297.8" y1="286.1" x2="305.8" y2="286.1" stroke="#222" stroke-width="1.2"/>
+<circle cx="301.8" cy="248.0" r="6" fill="#54a24b"><title>penalty=0-0.0025; false alerts=4; missed=128</title></circle>
+<circle cx="301.8" cy="248.0" r="11" fill="none" stroke="#54a24b" stroke-width="1.4"/>
+<text x="309.8" y="268.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="start" fill="#222">0-0.0025</text>
+<text x="725.0" y="92.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Penalty sweep</text>
+<text x="725.0" y="120.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Each point retunes routing</text>
+<text x="725.0" y="140.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">thresholds on validation data.</text>
+<text x="725.0" y="178.0" font-family="Arial" font-size="13" font-weight="600" text-anchor="start" fill="#222">Best test utility</text>
+<text x="725.0" y="204.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">penalty = 0</text>
+<text x="725.0" y="226.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">utility = 1.549</text>
+<text x="725.0" y="248.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">macro F1 = 0.803</text>
+<text x="725.0" y="270.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">product recall = 0.782</text>
+<text x="725.0" y="314.0" font-family="Arial" font-size="12" font-weight="600" text-anchor="start" fill="#222">Lower-left is preferred:</text>
+<text x="725.0" y="336.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">fewer false systemic alerts</text>
+<text x="725.0" y="356.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">and fewer missed product cases.</text>
+<text x="88.0" y="590.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Whiskers show 95% scenario-bootstrap intervals; point labels are validation penalty values.</text>
+</g>
+</svg>
+

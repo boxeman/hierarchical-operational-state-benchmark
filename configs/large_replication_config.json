@@ -1,0 +1,80 @@
+﻿{
+  "experiment_name": "large_replication",
+  "output_dir": "outputs/large_replication",
+  "splits": {
+    "train_scenarios": 48,
+    "validation_scenarios": 16,
+    "test_scenarios": 32,
+    "train_seed0": 11000,
+    "validation_seed0": 12000,
+    "test_seed0": 13000
+  },
+  "scenario_sweep": {
+    "systemic_account_counts": [5, 10, 20, 35, 50],
+    "systemic_message_score_means": [0.16, 0.18, 0.20, 0.22],
+    "benign_shared_topic_score_means": [0.12, 0.15, 0.18],
+    "cluster_size_normalizations": [15, 25, 40],
+    "sub_thresholds": [0.15, 0.18, 0.22]
+  },
+  "evaluation": {
+    "review_budgets": [0.05, 0.10, 0.15, 0.20, 0.25, 0.30],
+    "manuscript_review_budget": 0.15,
+    "threshold_min_precision": 0.90
+  },
+  "routing": {
+    "adversarial_false_alert_penalties": [0.0, 0.0005, 0.001, 0.0025, 0.005, 0.01, 0.025, 0.05]
+  },
+  "bootstrap": {
+    "account_n": 600,
+    "account_seed": 1910,
+    "system_alert_n": 600,
+    "system_alert_seed": 1911,
+    "targeted_n": 600,
+    "targeted_seed": 1912,
+    "routing_n": 600,
+    "routing_seed": 1913,
+    "frontier_n": 300,
+    "frontier_seed": 1914,
+    "workload_n": 240,
+    "workload_seed": 1915,
+    "backlog_n": 80,
+    "backlog_seed": 1916
+  },
+  "workload": {
+    "horizon_days": 14,
+    "daily_capacity_hours": 8.0,
+    "route_cost_hours": {
+      "auto_handle": 0.0,
+      "human_review": 0.25,
+      "policy_review": 0.75,
+      "product_investigation": 2.0
+    }
+  },
+  "backlog": {
+    "analyst_capacity_hours_per_day": [8.0, 16.0, 32.0],
+    "queue_policies": ["fifo", "product_first", "product_policy_first", "severity_weighted"]
+  },
+  "methods": {
+    "practical_methods": [
+      "learned_logistic_flat",
+      "learned_logistic_hier",
+      "ablation_no_uncertainty",
+      "ablation_no_signature",
+      "ablation_no_provenance",
+      "typed_system_hierarchy"
+    ],
+    "backlog_bootstrap_methods": [
+      "learned_logistic_flat",
+      "learned_logistic_hier",
+      "typed_system_hierarchy"
+    ],
+    "system_alert_methods": [
+      "signature_count_only",
+      "signature_mean_risk",
+      "system_hierarchy_alert",
+      "typed_system_hierarchy_alert"
+    ]
+  }
+}
+
+

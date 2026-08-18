@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">Figure 1. Held-out account review performance at 15% review budget</text>
+<text x="62.0" y="60.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Precision</text>
+<rect x="62" y="76" width="420" height="205" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="62" y1="281.0" x2="482" y2="281.0" stroke="#e5e5e5"/>
+<text x="53.0" y="285.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.00</text>
+<line x1="62" y1="229.8" x2="482" y2="229.8" stroke="#e5e5e5"/>
+<text x="53.0" y="233.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.25</text>
+<line x1="62" y1="178.5" x2="482" y2="178.5" stroke="#e5e5e5"/>
+<text x="53.0" y="182.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.50</text>
+<line x1="62" y1="127.2" x2="482" y2="127.2" stroke="#e5e5e5"/>
+<text x="53.0" y="131.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.75</text>
+<line x1="62" y1="76.0" x2="482" y2="76.0" stroke="#e5e5e5"/>
+<text x="53.0" y="80.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.00</text>
+<rect x="99.0" y="137.4" width="66.0" height="143.6" fill="#4c78a8"/>
+<title>Flat max precision: 0.701</title>
+<line x1="132.0" y1="135.8" x2="132.0" y2="139.0" stroke="#222" stroke-width="1.2"/>
+<line x1="128.0" y1="135.8" x2="136.0" y2="135.8" stroke="#222" stroke-width="1.2"/>
+<line x1="128.0" y1="139.0" x2="136.0" y2="139.0" stroke="#222" stroke-width="1.2"/>
+<text x="132.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Flat max</text>
+<text x="132.0" y="129.4" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.701</text>
+<rect x="239.0" y="95.0" width="66.0" height="186.0" fill="#f58518"/>
+<title>Learned flat precision: 0.907</title>
+<line x1="272.0" y1="93.8" x2="272.0" y2="96.6" stroke="#222" stroke-width="1.2"/>
+<line x1="268.0" y1="93.8" x2="276.0" y2="93.8" stroke="#222" stroke-width="1.2"/>
+<line x1="268.0" y1="96.6" x2="276.0" y2="96.6" stroke="#222" stroke-width="1.2"/>
+<text x="272.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="272.0" y="87.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.907</text>
+<rect x="379.0" y="76.0" width="66.0" height="205.0" fill="#54a24b"/>
+<title>Learned hierarchy precision: 1.000</title>
+<line x1="412.0" y1="76.0" x2="412.0" y2="76.0" stroke="#222" stroke-width="1.2"/>
+<line x1="408.0" y1="76.0" x2="416.0" y2="76.0" stroke="#222" stroke-width="1.2"/>
+<line x1="408.0" y1="76.0" x2="416.0" y2="76.0" stroke="#222" stroke-width="1.2"/>
+<text x="412.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned hierarchy</text>
+<text x="412.0" y="68.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">1.000</text>
+<text x="545.0" y="60.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Harm-weighted recall</text>
+<rect x="545" y="76" width="420" height="205" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="545" y1="281.0" x2="965" y2="281.0" stroke="#e5e5e5"/>
+<text x="536.0" y="285.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.00</text>
+<line x1="545" y1="229.8" x2="965" y2="229.8" stroke="#e5e5e5"/>
+<text x="536.0" y="233.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.25</text>
+<line x1="545" y1="178.5" x2="965" y2="178.5" stroke="#e5e5e5"/>
+<text x="536.0" y="182.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.50</text>
+<line x1="545" y1="127.2" x2="965" y2="127.2" stroke="#e5e5e5"/>
+<text x="536.0" y="131.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.75</text>
+<line x1="545" y1="76.0" x2="965" y2="76.0" stroke="#e5e5e5"/>
+<text x="536.0" y="80.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.00</text>
+<rect x="582.0" y="210.9" width="66.0" height="70.1" fill="#4c78a8"/>
+<title>Flat max harm_weighted_recall: 0.342</title>
+<line x1="615.0" y1="208.3" x2="615.0" y2="213.6" stroke="#222" stroke-width="1.2"/>
+<line x1="611.0" y1="208.3" x2="619.0" y2="208.3" stroke="#222" stroke-width="1.2"/>
+<line x1="611.0" y1="213.6" x2="619.0" y2="213.6" stroke="#222" stroke-width="1.2"/>
+<text x="615.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Flat max</text>
+<text x="615.0" y="202.9" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.342</text>
+<rect x="722.0" y="188.2" width="66.0" height="92.8" fill="#f58518"/>
+<title>Learned flat harm_weighted_recall: 0.453</title>
+<line x1="755.0" y1="185.1" x2="755.0" y2="192.3" stroke="#222" stroke-width="1.2"/>
+<line x1="751.0" y1="185.1" x2="759.0" y2="185.1" stroke="#222" stroke-width="1.2"/>
+<line x1="751.0" y1="192.3" x2="759.0" y2="192.3" stroke="#222" stroke-width="1.2"/>
+<text x="755.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="755.0" y="180.2" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.453</text>
+<rect x="862.0" y="161.1" width="66.0" height="119.9" fill="#54a24b"/>
+<title>Learned hierarchy harm_weighted_recall: 0.585</title>
+<line x1="895.0" y1="158.7" x2="895.0" y2="163.5" stroke="#222" stroke-width="1.2"/>
+<line x1="891.0" y1="158.7" x2="899.0" y2="158.7" stroke="#222" stroke-width="1.2"/>
+<line x1="891.0" y1="163.5" x2="899.0" y2="163.5" stroke="#222" stroke-width="1.2"/>
+<text x="895.0" y="301.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned hierarchy</text>
+<text x="895.0" y="153.1" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.585</text>
+<text x="62.0" y="334.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Systemic account recall</text>
+<rect x="62" y="350" width="420" height="205" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="62" y1="555.0" x2="482" y2="555.0" stroke="#e5e5e5"/>
+<text x="53.0" y="559.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.00</text>
+<line x1="62" y1="503.8" x2="482" y2="503.8" stroke="#e5e5e5"/>
+<text x="53.0" y="507.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.25</text>
+<line x1="62" y1="452.5" x2="482" y2="452.5" stroke="#e5e5e5"/>
+<text x="53.0" y="456.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.50</text>
+<line x1="62" y1="401.2" x2="482" y2="401.2" stroke="#e5e5e5"/>
+<text x="53.0" y="405.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.75</text>
+<line x1="62" y1="350.0" x2="482" y2="350.0" stroke="#e5e5e5"/>
+<text x="53.0" y="354.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.00</text>
+<rect x="99.0" y="555.0" width="66.0" height="0.0" fill="#4c78a8"/>
+<title>Flat max systemic_account_recall: 0.000</title>
+<line x1="132.0" y1="555.0" x2="132.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="128.0" y1="555.0" x2="136.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="128.0" y1="555.0" x2="136.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<text x="132.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Flat max</text>
+<text x="132.0" y="547.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="239.0" y="555.0" width="66.0" height="0.0" fill="#f58518"/>
+<title>Learned flat systemic_account_recall: 0.000</title>
+<line x1="272.0" y1="555.0" x2="272.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="268.0" y1="555.0" x2="276.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="268.0" y1="555.0" x2="276.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<text x="272.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="272.0" y="547.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="379.0" y="466.4" width="66.0" height="88.6" fill="#54a24b"/>
+<title>Learned hierarchy systemic_account_recall: 0.432</title>
+<line x1="412.0" y1="414.0" x2="412.0" y2="547.3" stroke="#222" stroke-width="1.2"/>
+<line x1="408.0" y1="414.0" x2="416.0" y2="414.0" stroke="#222" stroke-width="1.2"/>
+<line x1="408.0" y1="547.3" x2="416.0" y2="547.3" stroke="#222" stroke-width="1.2"/>
+<text x="412.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned hierarchy</text>
+<text x="412.0" y="458.4" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.432</text>
+<text x="545.0" y="334.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">False positives</text>
+<rect x="545" y="350" width="420" height="205" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="545" y1="555.0" x2="965" y2="555.0" stroke="#e5e5e5"/>
+<text x="536.0" y="559.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="545" y1="503.8" x2="965" y2="503.8" stroke="#e5e5e5"/>
+<text x="536.0" y="507.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">123</text>
+<line x1="545" y1="452.5" x2="965" y2="452.5" stroke="#e5e5e5"/>
+<text x="536.0" y="456.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">247</text>
+<line x1="545" y1="401.2" x2="965" y2="401.2" stroke="#e5e5e5"/>
+<text x="536.0" y="405.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">370</text>
+<line x1="545" y1="350.0" x2="965" y2="350.0" stroke="#e5e5e5"/>
+<text x="536.0" y="354.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">493</text>
+<rect x="582.0" y="381.7" width="66.0" height="173.3" fill="#4c78a8"/>
+<title>Flat max false_positive_reviews: 417.000</title>
+<line x1="615.0" y1="376.7" x2="615.0" y2="385.9" stroke="#222" stroke-width="1.2"/>
+<line x1="611.0" y1="376.7" x2="619.0" y2="376.7" stroke="#222" stroke-width="1.2"/>
+<line x1="611.0" y1="385.9" x2="619.0" y2="385.9" stroke="#222" stroke-width="1.2"/>
+<text x="615.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Flat max</text>
+<text x="615.0" y="373.7" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">417.000</text>
+<rect x="722.0" y="501.4" width="66.0" height="53.6" fill="#f58518"/>
+<title>Learned flat false_positive_reviews: 129.000</title>
+<line x1="755.0" y1="496.8" x2="755.0" y2="504.9" stroke="#222" stroke-width="1.2"/>
+<line x1="751.0" y1="496.8" x2="759.0" y2="496.8" stroke="#222" stroke-width="1.2"/>
+<line x1="751.0" y1="504.9" x2="759.0" y2="504.9" stroke="#222" stroke-width="1.2"/>
+<text x="755.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned flat</text>
+<text x="755.0" y="493.4" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">129.000</text>
+<rect x="862.0" y="555.0" width="66.0" height="0.0" fill="#54a24b"/>
+<title>Learned hierarchy false_positive_reviews: 0.000</title>
+<line x1="895.0" y1="555.0" x2="895.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="891.0" y1="555.0" x2="899.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<line x1="891.0" y1="555.0" x2="899.0" y2="555.0" stroke="#222" stroke-width="1.2"/>
+<text x="895.0" y="575.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="middle" fill="#222">Learned hierarchy</text>
+<text x="895.0" y="547.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<text x="62.0" y="592.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Whiskers show 95% bootstrap intervals from scenario-block resampling.</text>
+</svg>

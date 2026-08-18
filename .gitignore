@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+outputs/
+!outputs/example_smoke_test/
+*.zip
+*.tmp
+.DS_Store

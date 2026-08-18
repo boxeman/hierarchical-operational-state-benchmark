@@ -1,0 +1,80 @@
+﻿{
+  "experiment_name": "smoke_test",
+  "output_dir": "outputs/smoke_test",
+  "splits": {
+    "train_scenarios": 4,
+    "validation_scenarios": 2,
+    "test_scenarios": 2,
+    "train_seed0": 1000,
+    "validation_seed0": 2000,
+    "test_seed0": 3000
+  },
+  "scenario_sweep": {
+    "systemic_account_counts": [10, 35],
+    "systemic_message_score_means": [0.18, 0.22],
+    "benign_shared_topic_score_means": [0.12, 0.18],
+    "cluster_size_normalizations": [15, 25],
+    "sub_thresholds": [0.18]
+  },
+  "evaluation": {
+    "review_budgets": [0.10, 0.15, 0.25],
+    "manuscript_review_budget": 0.15,
+    "threshold_min_precision": 0.90
+  },
+  "routing": {
+    "adversarial_false_alert_penalties": [0.0, 0.0025, 0.01]
+  },
+  "bootstrap": {
+    "account_n": 5,
+    "account_seed": 910,
+    "system_alert_n": 5,
+    "system_alert_seed": 911,
+    "targeted_n": 5,
+    "targeted_seed": 912,
+    "routing_n": 5,
+    "routing_seed": 913,
+    "frontier_n": 5,
+    "frontier_seed": 914,
+    "workload_n": 5,
+    "workload_seed": 915,
+    "backlog_n": 3,
+    "backlog_seed": 916
+  },
+  "workload": {
+    "horizon_days": 7,
+    "daily_capacity_hours": 8.0,
+    "route_cost_hours": {
+      "auto_handle": 0.0,
+      "human_review": 0.25,
+      "policy_review": 0.75,
+      "product_investigation": 2.0
+    }
+  },
+  "backlog": {
+    "analyst_capacity_hours_per_day": [16.0],
+    "queue_policies": ["fifo", "product_first", "product_policy_first", "severity_weighted"]
+  },
+  "methods": {
+    "practical_methods": [
+      "learned_logistic_flat",
+      "learned_logistic_hier",
+      "ablation_no_uncertainty",
+      "ablation_no_signature",
+      "ablation_no_provenance",
+      "typed_system_hierarchy"
+    ],
+    "backlog_bootstrap_methods": [
+      "learned_logistic_flat",
+      "learned_logistic_hier",
+      "typed_system_hierarchy"
+    ],
+    "system_alert_methods": [
+      "signature_count_only",
+      "signature_mean_risk",
+      "system_hierarchy_alert",
+      "typed_system_hierarchy_alert"
+    ]
+  }
+}
+
+

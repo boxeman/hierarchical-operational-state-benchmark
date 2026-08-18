@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">Figure 3. Calibration and system-alert performance</text>
+<text x="65.0" y="68.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Calibration error (lower is better)</text>
+<rect x="65" y="86" width="395" height="270" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="65" y1="356.0" x2="460" y2="356.0" stroke="#e5e5e5"/>
+<text x="57.0" y="360.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.00</text>
+<line x1="65" y1="302.0" x2="460" y2="302.0" stroke="#e5e5e5"/>
+<text x="57.0" y="306.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.02</text>
+<line x1="65" y1="248.0" x2="460" y2="248.0" stroke="#e5e5e5"/>
+<text x="57.0" y="252.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.04</text>
+<line x1="65" y1="194.0" x2="460" y2="194.0" stroke="#e5e5e5"/>
+<text x="57.0" y="198.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.06</text>
+<line x1="65" y1="140.0" x2="460" y2="140.0" stroke="#e5e5e5"/>
+<text x="57.0" y="144.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.08</text>
+<line x1="65" y1="86.0" x2="460" y2="86.0" stroke="#e5e5e5"/>
+<text x="57.0" y="90.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.10</text>
+<rect x="85.0" y="149.3" width="22.0" height="206.7" fill="#4c78a8"/>
+<title>Learned flat ECE: 0.077</title>
+<rect x="113.0" y="89.8" width="22.0" height="266.2" fill="#999"/>
+<title>Learned flat Brier: 0.099</title>
+<text x="100.0" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">flat</text>
+<rect x="183.8" y="255.6" width="22.0" height="100.4" fill="#f58518"/>
+<title>Learned hierarchy ECE: 0.037</title>
+<rect x="211.8" y="290.5" width="22.0" height="65.5" fill="#999"/>
+<title>Learned hierarchy Brier: 0.024</title>
+<text x="198.8" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">hierarchy</text>
+<rect x="282.5" y="283.1" width="22.0" height="72.9" fill="#54a24b"/>
+<title>No signature ECE: 0.027</title>
+<rect x="310.5" y="253.2" width="22.0" height="102.8" fill="#999"/>
+<title>No signature Brier: 0.038</title>
+<text x="297.5" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">No signature</text>
+<rect x="381.2" y="265.7" width="22.0" height="90.3" fill="#b279a2"/>
+<title>No provenance ECE: 0.033</title>
+<rect x="409.2" y="262.3" width="22.0" height="93.7" fill="#999"/>
+<title>No provenance Brier: 0.035</title>
+<text x="396.2" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">No provenance</text>
+<text x="290.0" y="410.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="start" fill="#222">Colored = ECE; gray = Brier score.</text>
+<text x="545.0" y="68.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">System-alert hit rate (higher is better)</text>
+<rect x="545" y="86" width="360" height="270" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="545" y1="356.0" x2="905" y2="356.0" stroke="#e5e5e5"/>
+<text x="537.0" y="360.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="545" y1="302.0" x2="905" y2="302.0" stroke="#e5e5e5"/>
+<text x="537.0" y="306.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="545" y1="248.0" x2="905" y2="248.0" stroke="#e5e5e5"/>
+<text x="537.0" y="252.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.4</text>
+<line x1="545" y1="194.0" x2="905" y2="194.0" stroke="#e5e5e5"/>
+<text x="537.0" y="198.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.6</text>
+<line x1="545" y1="140.0" x2="905" y2="140.0" stroke="#e5e5e5"/>
+<text x="537.0" y="144.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.8</text>
+<line x1="545" y1="86.0" x2="905" y2="86.0" stroke="#e5e5e5"/>
+<text x="537.0" y="90.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.0</text>
+<rect x="566.0" y="356.0" width="48.0" height="0.0" fill="#4c78a8"/>
+<title>Signature count only hit rate: 0.000</title>
+<line x1="590.0" y1="356.0" x2="590.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="586.0" y1="356.0" x2="594.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="586.0" y1="356.0" x2="594.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<text x="590.0" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">Count</text>
+<text x="590.0" y="348.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="656.0" y="356.0" width="48.0" height="0.0" fill="#f58518"/>
+<title>Signature mean risk hit rate: 0.000</title>
+<line x1="680.0" y1="356.0" x2="680.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="676.0" y1="356.0" x2="684.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="676.0" y1="356.0" x2="684.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<text x="680.0" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">Mean risk</text>
+<text x="680.0" y="348.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="746.0" y="356.0" width="48.0" height="0.0" fill="#54a24b"/>
+<title>System hierarchy hit rate: 0.000</title>
+<line x1="770.0" y1="356.0" x2="770.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="766.0" y1="356.0" x2="774.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="766.0" y1="356.0" x2="774.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<text x="770.0" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">System</text>
+<text x="770.0" y="348.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<rect x="836.0" y="356.0" width="48.0" height="0.0" fill="#b279a2"/>
+<title>Typed system hierarchy hit rate: 0.000</title>
+<line x1="860.0" y1="356.0" x2="860.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="856.0" y1="356.0" x2="864.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<line x1="856.0" y1="356.0" x2="864.0" y2="356.0" stroke="#222" stroke-width="1.2"/>
+<text x="860.0" y="374.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#222">Typed system</text>
+<text x="860.0" y="348.0" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<text x="65.0" y="432.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">This figure separates two deployment questions: calibrated account routing and product-level alerting.</text>
+<text x="65.0" y="454.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">System-alert whiskers show 95% bootstrap intervals from held-out scenario resampling.</text>
+</svg>

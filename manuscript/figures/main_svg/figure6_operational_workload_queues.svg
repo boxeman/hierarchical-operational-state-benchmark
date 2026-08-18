@@ -1,0 +1,455 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="2250" viewBox="0 0 1100 2250">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#222">Figure 6. Operational impact under workload, deduplication, and finite-capacity queues</text>
+  <text x="40" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">A</text>
+  <text x="68" y="82" font-family="Arial, sans-serif" font-size="16" fill="#444">Time-to-alert and analyst workload convert routing decisions into operational burden</text>
+  <g transform="translate(50 100) scale(1.02040816326531)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">A. Practical monitoring simulation: alert time and analyst workload</text>
+<text x="68.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">A. Product campaign alert rate</text>
+<rect x="68" y="88" width="390" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="308.0" x2="458" y2="308.0" stroke="#e5e5e5"/>
+<text x="60.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="68" y1="253.0" x2="458" y2="253.0" stroke="#e5e5e5"/>
+<text x="60.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="68" y1="198.0" x2="458" y2="198.0" stroke="#e5e5e5"/>
+<text x="60.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.5</text>
+<line x1="68" y1="143.0" x2="458" y2="143.0" stroke="#e5e5e5"/>
+<text x="60.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.8</text>
+<line x1="68" y1="88.0" x2="458" y2="88.0" stroke="#e5e5e5"/>
+<text x="60.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.0</text>
+<rect x="79.5" y="308.0" width="42.0" height="0.0" fill="#f58518"/>
+<title>Flat product_campaign_alert_rate: 0.000</title>
+<line x1="100.5" y1="308.0" x2="100.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<line x1="96.5" y1="308.0" x2="104.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<line x1="96.5" y1="308.0" x2="104.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<text x="100.5" y="301.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<text x="100.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="144.5" y="115.5" width="42.0" height="192.5" fill="#54a24b"/>
+<title>Hierarchy product_campaign_alert_rate: 0.875</title>
+<line x1="165.5" y1="97.2" x2="165.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<line x1="161.5" y1="97.2" x2="169.5" y2="97.2" stroke="#222" stroke-width="1.2"/>
+<line x1="161.5" y1="143.0" x2="169.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<text x="165.5" y="108.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.875</text>
+<text x="165.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="209.5" y="143.0" width="42.0" height="165.0" fill="#b279a2"/>
+<title>No uncert. product_campaign_alert_rate: 0.750</title>
+<line x1="230.5" y1="115.3" x2="230.5" y2="179.7" stroke="#222" stroke-width="1.2"/>
+<line x1="226.5" y1="115.3" x2="234.5" y2="115.3" stroke="#222" stroke-width="1.2"/>
+<line x1="226.5" y1="179.7" x2="234.5" y2="179.7" stroke="#222" stroke-width="1.2"/>
+<text x="230.5" y="136.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.750</text>
+<text x="230.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<rect x="274.5" y="308.0" width="42.0" height="0.0" fill="#e45756"/>
+<title>No sig. product_campaign_alert_rate: 0.000</title>
+<line x1="295.5" y1="308.0" x2="295.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<line x1="291.5" y1="308.0" x2="299.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<line x1="291.5" y1="308.0" x2="299.5" y2="308.0" stroke="#222" stroke-width="1.2"/>
+<text x="295.5" y="301.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.000</text>
+<text x="295.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="339.5" y="115.5" width="42.0" height="192.5" fill="#b279a2"/>
+<title>No prov. product_campaign_alert_rate: 0.875</title>
+<line x1="360.5" y1="97.2" x2="360.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<line x1="356.5" y1="97.2" x2="364.5" y2="97.2" stroke="#222" stroke-width="1.2"/>
+<line x1="356.5" y1="143.0" x2="364.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<text x="360.5" y="108.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.875</text>
+<text x="360.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="404.5" y="115.5" width="42.0" height="192.5" fill="#4c78a8"/>
+<title>Typed rule product_campaign_alert_rate: 0.875</title>
+<line x1="425.5" y1="97.2" x2="425.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<line x1="421.5" y1="97.2" x2="429.5" y2="97.2" stroke="#222" stroke-width="1.2"/>
+<line x1="421.5" y1="143.0" x2="429.5" y2="143.0" stroke="#222" stroke-width="1.2"/>
+<text x="425.5" y="108.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.875</text>
+<text x="425.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="540.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">B. Total analyst hours</text>
+<rect x="540" y="88" width="365" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="540" y1="308.0" x2="905" y2="308.0" stroke="#e5e5e5"/>
+<text x="532.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="540" y1="253.0" x2="905" y2="253.0" stroke="#e5e5e5"/>
+<text x="532.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1409</text>
+<line x1="540" y1="198.0" x2="905" y2="198.0" stroke="#e5e5e5"/>
+<text x="532.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">2818</text>
+<line x1="540" y1="143.0" x2="905" y2="143.0" stroke="#e5e5e5"/>
+<text x="532.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">4227</text>
+<line x1="540" y1="88.0" x2="905" y2="88.0" stroke="#e5e5e5"/>
+<text x="532.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">5637</text>
+<rect x="549.4" y="262.5" width="42.0" height="45.5" fill="#f58518"/>
+<title>Flat total_analyst_hours: 1166.250</title>
+<line x1="570.4" y1="260.1" x2="570.4" y2="264.6" stroke="#222" stroke-width="1.2"/>
+<line x1="566.4" y1="260.1" x2="574.4" y2="260.1" stroke="#222" stroke-width="1.2"/>
+<line x1="566.4" y1="264.6" x2="574.4" y2="264.6" stroke="#222" stroke-width="1.2"/>
+<text x="570.4" y="255.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1166</text>
+<text x="570.4" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="610.2" y="234.2" width="42.0" height="73.8" fill="#54a24b"/>
+<title>Hierarchy total_analyst_hours: 1891.500</title>
+<line x1="631.2" y1="224.8" x2="631.2" y2="245.8" stroke="#222" stroke-width="1.2"/>
+<line x1="627.2" y1="224.8" x2="635.2" y2="224.8" stroke="#222" stroke-width="1.2"/>
+<line x1="627.2" y1="245.8" x2="635.2" y2="245.8" stroke="#222" stroke-width="1.2"/>
+<text x="631.2" y="227.2" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1892</text>
+<text x="631.2" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="671.1" y="243.6" width="42.0" height="64.4" fill="#b279a2"/>
+<title>No uncert. total_analyst_hours: 1649.000</title>
+<line x1="692.1" y1="234.1" x2="692.1" y2="251.6" stroke="#222" stroke-width="1.2"/>
+<line x1="688.1" y1="234.1" x2="696.1" y2="234.1" stroke="#222" stroke-width="1.2"/>
+<line x1="688.1" y1="251.6" x2="696.1" y2="251.6" stroke="#222" stroke-width="1.2"/>
+<text x="692.1" y="236.6" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1649</text>
+<text x="692.1" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<rect x="731.9" y="270.8" width="42.0" height="37.2" fill="#e45756"/>
+<title>No sig. total_analyst_hours: 952.500</title>
+<line x1="752.9" y1="269.5" x2="752.9" y2="272.2" stroke="#222" stroke-width="1.2"/>
+<line x1="748.9" y1="269.5" x2="756.9" y2="269.5" stroke="#222" stroke-width="1.2"/>
+<line x1="748.9" y1="272.2" x2="756.9" y2="272.2" stroke="#222" stroke-width="1.2"/>
+<text x="752.9" y="263.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">952</text>
+<text x="752.9" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="792.8" y="231.1" width="42.0" height="76.9" fill="#b279a2"/>
+<title>No prov. total_analyst_hours: 1969.500</title>
+<line x1="813.8" y1="221.1" x2="813.8" y2="242.1" stroke="#222" stroke-width="1.2"/>
+<line x1="809.8" y1="221.1" x2="817.8" y2="221.1" stroke="#222" stroke-width="1.2"/>
+<line x1="809.8" y1="242.1" x2="817.8" y2="242.1" stroke="#222" stroke-width="1.2"/>
+<text x="813.8" y="224.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1970</text>
+<text x="813.8" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="853.6" y="139.2" width="42.0" height="168.8" fill="#4c78a8"/>
+<title>Typed rule total_analyst_hours: 4324.750</title>
+<line x1="874.6" y1="116.7" x2="874.6" y2="169.3" stroke="#222" stroke-width="1.2"/>
+<line x1="870.6" y1="116.7" x2="878.6" y2="116.7" stroke="#222" stroke-width="1.2"/>
+<line x1="870.6" y1="169.3" x2="878.6" y2="169.3" stroke="#222" stroke-width="1.2"/>
+<text x="874.6" y="132.2" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">4325</text>
+<text x="874.6" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="68.0" y="367.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">C. False product investigations</text>
+<rect x="68" y="385" width="837" height="145" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="530.0" x2="905" y2="530.0" stroke="#e5e5e5"/>
+<text x="60.0" y="534.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="68" y1="493.8" x2="905" y2="493.8" stroke="#e5e5e5"/>
+<text x="60.0" y="497.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">363</text>
+<line x1="68" y1="457.5" x2="905" y2="457.5" stroke="#e5e5e5"/>
+<text x="60.0" y="461.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">727</text>
+<line x1="68" y1="421.2" x2="905" y2="421.2" stroke="#e5e5e5"/>
+<text x="60.0" y="425.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1090</text>
+<line x1="68" y1="385.0" x2="905" y2="385.0" stroke="#e5e5e5"/>
+<text x="60.0" y="389.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1453</text>
+<rect x="105.8" y="530.0" width="64.0" height="0.0" fill="#f58518"/>
+<title>Flat false_product_investigations: 0.000</title>
+<line x1="137.8" y1="530.0" x2="137.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="133.8" y1="530.0" x2="141.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="133.8" y1="530.0" x2="141.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<text x="137.8" y="523.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0</text>
+<text x="137.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="245.2" y="517.8" width="64.0" height="12.2" fill="#54a24b"/>
+<title>Hierarchy false_product_investigations: 122.000</title>
+<line x1="277.2" y1="510.6" x2="277.2" y2="523.4" stroke="#222" stroke-width="1.2"/>
+<line x1="273.2" y1="510.6" x2="281.2" y2="510.6" stroke="#222" stroke-width="1.2"/>
+<line x1="273.2" y1="523.4" x2="281.2" y2="523.4" stroke="#222" stroke-width="1.2"/>
+<text x="277.2" y="510.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">122</text>
+<text x="277.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="384.8" y="515.5" width="64.0" height="14.5" fill="#b279a2"/>
+<title>No uncert. false_product_investigations: 145.000</title>
+<line x1="416.8" y1="511.9" x2="416.8" y2="518.5" stroke="#222" stroke-width="1.2"/>
+<line x1="412.8" y1="511.9" x2="420.8" y2="511.9" stroke="#222" stroke-width="1.2"/>
+<line x1="412.8" y1="518.5" x2="420.8" y2="518.5" stroke="#222" stroke-width="1.2"/>
+<text x="416.8" y="508.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">145</text>
+<text x="416.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<rect x="524.2" y="530.0" width="64.0" height="0.0" fill="#e45756"/>
+<title>No sig. false_product_investigations: 0.000</title>
+<line x1="556.2" y1="530.0" x2="556.2" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="552.2" y1="530.0" x2="560.2" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="552.2" y1="530.0" x2="560.2" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<text x="556.2" y="523.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0</text>
+<text x="556.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="663.8" y="515.9" width="64.0" height="14.1" fill="#b279a2"/>
+<title>No prov. false_product_investigations: 141.000</title>
+<line x1="695.8" y1="508.5" x2="695.8" y2="522.6" stroke="#222" stroke-width="1.2"/>
+<line x1="691.8" y1="508.5" x2="699.8" y2="508.5" stroke="#222" stroke-width="1.2"/>
+<line x1="691.8" y1="522.6" x2="699.8" y2="522.6" stroke="#222" stroke-width="1.2"/>
+<text x="695.8" y="508.9" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">141</text>
+<text x="695.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="803.2" y="429.5" width="64.0" height="100.5" fill="#4c78a8"/>
+<title>Typed rule false_product_investigations: 1007.000</title>
+<line x1="835.2" y1="403.9" x2="835.2" y2="464.4" stroke="#222" stroke-width="1.2"/>
+<line x1="831.2" y1="403.9" x2="839.2" y2="403.9" stroke="#222" stroke-width="1.2"/>
+<line x1="831.2" y1="464.4" x2="839.2" y2="464.4" stroke="#222" stroke-width="1.2"/>
+<text x="835.2" y="422.5" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1007</text>
+<text x="835.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="540.0" y="392.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Time-to-alert readout</text>
+<text x="540.0" y="420.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Learned hierarchy alerted 0.875 of product campaigns.</text>
+<text x="540.0" y="442.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Median time-to-alert: 0.0 h.</text>
+<text x="540.0" y="464.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Analyst hours: 1892, vs typed rule 4325.</text>
+<text x="540.0" y="486.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">False product investigations: 122, vs typed rule 1007.</text>
+<text x="68.0" y="594.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Whiskers show 95% scenario-bootstrap intervals; arrivals span 14 days and route costs are 0, 0.25, 0.75, and 2 hours.</text>
+</g>
+  <line x1="40" y1="760" x2="1060" y2="760" stroke="#ddd" stroke-width="2"/>
+  <text x="40" y="810" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">B</text>
+  <text x="68" y="810" font-family="Arial, sans-serif" font-size="16" fill="#444">Deduplication and finite analyst capacity reveal backlog pressure</text>
+  <g transform="translate(50 830) scale(1.02040816326531)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">B. Deduplicated alert queue under finite analyst capacity</text>
+<text x="68.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">A. Peak backlog hours</text>
+<rect x="68" y="88" width="390" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="308.0" x2="458" y2="308.0" stroke="#e5e5e5"/>
+<text x="60.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="68" y1="253.0" x2="458" y2="253.0" stroke="#e5e5e5"/>
+<text x="60.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">326</text>
+<line x1="68" y1="198.0" x2="458" y2="198.0" stroke="#e5e5e5"/>
+<text x="60.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">652</text>
+<line x1="68" y1="143.0" x2="458" y2="143.0" stroke="#e5e5e5"/>
+<text x="60.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">978</text>
+<line x1="68" y1="88.0" x2="458" y2="88.0" stroke="#e5e5e5"/>
+<text x="60.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1304</text>
+<rect x="79.5" y="149.0" width="42.0" height="159.0" fill="#f58518"/>
+<title>Flat peak_backlog_hours: 942.250</title>
+<line x1="100.5" y1="139.3" x2="100.5" y2="158.1" stroke="#222" stroke-width="1.2"/>
+<line x1="96.5" y1="139.3" x2="104.5" y2="139.3" stroke="#222" stroke-width="1.2"/>
+<line x1="96.5" y1="158.1" x2="104.5" y2="158.1" stroke="#222" stroke-width="1.2"/>
+<text x="100.5" y="142.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">942</text>
+<text x="100.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="144.5" y="215.9" width="42.0" height="92.1" fill="#54a24b"/>
+<title>Hierarchy peak_backlog_hours: 545.500</title>
+<line x1="165.5" y1="215.3" x2="165.5" y2="216.5" stroke="#222" stroke-width="1.2"/>
+<line x1="161.5" y1="215.3" x2="169.5" y2="215.3" stroke="#222" stroke-width="1.2"/>
+<line x1="161.5" y1="216.5" x2="169.5" y2="216.5" stroke="#222" stroke-width="1.2"/>
+<text x="165.5" y="208.9" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">546</text>
+<text x="165.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="209.5" y="246.4" width="42.0" height="61.6" fill="#b279a2"/>
+<title>No uncert. peak_backlog_hours: 365.000</title>
+<text x="230.5" y="239.4" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">365</text>
+<text x="230.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<rect x="274.5" y="185.1" width="42.0" height="122.9" fill="#e45756"/>
+<title>No sig. peak_backlog_hours: 728.500</title>
+<text x="295.5" y="178.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">728</text>
+<text x="295.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="339.5" y="208.2" width="42.0" height="99.8" fill="#b279a2"/>
+<title>No prov. peak_backlog_hours: 591.500</title>
+<text x="360.5" y="201.2" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">592</text>
+<text x="360.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="404.5" y="119.2" width="42.0" height="188.8" fill="#4c78a8"/>
+<title>Typed rule peak_backlog_hours: 1118.750</title>
+<line x1="425.5" y1="116.7" x2="425.5" y2="121.5" stroke="#222" stroke-width="1.2"/>
+<line x1="421.5" y1="116.7" x2="429.5" y2="116.7" stroke="#222" stroke-width="1.2"/>
+<line x1="421.5" y1="121.5" x2="429.5" y2="121.5" stroke="#222" stroke-width="1.2"/>
+<text x="425.5" y="112.2" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">1119</text>
+<text x="425.5" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="540.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">B. True product alerts resolved within 24h</text>
+<rect x="540" y="88" width="365" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="540" y1="308.0" x2="905" y2="308.0" stroke="#e5e5e5"/>
+<text x="532.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="540" y1="253.0" x2="905" y2="253.0" stroke="#e5e5e5"/>
+<text x="532.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="540" y1="198.0" x2="905" y2="198.0" stroke="#e5e5e5"/>
+<text x="532.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.5</text>
+<line x1="540" y1="143.0" x2="905" y2="143.0" stroke="#e5e5e5"/>
+<text x="532.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.8</text>
+<line x1="540" y1="88.0" x2="905" y2="88.0" stroke="#e5e5e5"/>
+<text x="532.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.0</text>
+<title>Flat true_product_alerts_resolved_within_24h_rate: </title>
+<text x="570.4" y="101.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222"></text>
+<text x="570.4" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="610.2" y="245.1" width="42.0" height="62.9" fill="#54a24b"/>
+<title>Hierarchy true_product_alerts_resolved_within_24h_rate: 0.286</title>
+<line x1="631.2" y1="222.0" x2="631.2" y2="258.0" stroke="#222" stroke-width="1.2"/>
+<line x1="627.2" y1="222.0" x2="635.2" y2="222.0" stroke="#222" stroke-width="1.2"/>
+<line x1="627.2" y1="258.0" x2="635.2" y2="258.0" stroke="#222" stroke-width="1.2"/>
+<text x="631.2" y="238.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.286</text>
+<text x="631.2" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="671.1" y="259.1" width="42.0" height="48.9" fill="#b279a2"/>
+<title>No uncert. true_product_alerts_resolved_within_24h_rate: 0.222</title>
+<text x="692.1" y="252.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.222</text>
+<text x="692.1" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<title>No sig. true_product_alerts_resolved_within_24h_rate: </title>
+<text x="752.9" y="101.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222"></text>
+<text x="752.9" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="792.8" y="266.1" width="42.0" height="41.9" fill="#b279a2"/>
+<title>No prov. true_product_alerts_resolved_within_24h_rate: 0.190</title>
+<text x="813.8" y="259.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.190</text>
+<text x="813.8" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="853.6" y="276.6" width="42.0" height="31.4" fill="#4c78a8"/>
+<title>Typed rule true_product_alerts_resolved_within_24h_rate: 0.143</title>
+<line x1="874.6" y1="243.5" x2="874.6" y2="288.5" stroke="#222" stroke-width="1.2"/>
+<line x1="870.6" y1="243.5" x2="878.6" y2="243.5" stroke="#222" stroke-width="1.2"/>
+<line x1="870.6" y1="288.5" x2="878.6" y2="288.5" stroke="#222" stroke-width="1.2"/>
+<text x="874.6" y="269.6" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.143</text>
+<text x="874.6" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="68.0" y="367.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">C. Unique false product alerts</text>
+<rect x="68" y="385" width="837" height="145" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="530.0" x2="905" y2="530.0" stroke="#e5e5e5"/>
+<text x="60.0" y="534.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="68" y1="493.8" x2="905" y2="493.8" stroke="#e5e5e5"/>
+<text x="60.0" y="497.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">9</text>
+<line x1="68" y1="457.5" x2="905" y2="457.5" stroke="#e5e5e5"/>
+<text x="60.0" y="461.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">18</text>
+<line x1="68" y1="421.2" x2="905" y2="421.2" stroke="#e5e5e5"/>
+<text x="60.0" y="425.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">28</text>
+<line x1="68" y1="385.0" x2="905" y2="385.0" stroke="#e5e5e5"/>
+<text x="60.0" y="389.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">37</text>
+<rect x="105.8" y="530.0" width="64.0" height="0.0" fill="#f58518"/>
+<title>Flat false_unique_product_alerts: 0.000</title>
+<line x1="137.8" y1="530.0" x2="137.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="133.8" y1="530.0" x2="141.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<line x1="133.8" y1="530.0" x2="141.8" y2="530.0" stroke="#222" stroke-width="1.2"/>
+<text x="137.8" y="523.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0</text>
+<text x="137.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Flat</text>
+<rect x="245.2" y="486.7" width="64.0" height="43.3" fill="#54a24b"/>
+<title>Hierarchy false_unique_product_alerts: 11.000</title>
+<line x1="277.2" y1="478.8" x2="277.2" y2="492.7" stroke="#222" stroke-width="1.2"/>
+<line x1="273.2" y1="478.8" x2="281.2" y2="478.8" stroke="#222" stroke-width="1.2"/>
+<line x1="273.2" y1="492.7" x2="281.2" y2="492.7" stroke="#222" stroke-width="1.2"/>
+<text x="277.2" y="479.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">11</text>
+<text x="277.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Hierarchy</text>
+<rect x="384.8" y="415.7" width="64.0" height="114.3" fill="#b279a2"/>
+<title>No uncert. false_unique_product_alerts: 29.000</title>
+<text x="416.8" y="408.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">29</text>
+<text x="416.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No uncert.</text>
+<rect x="524.2" y="530.0" width="64.0" height="0.0" fill="#e45756"/>
+<title>No sig. false_unique_product_alerts: 0.000</title>
+<text x="556.2" y="523.0" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0</text>
+<text x="556.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No sig.</text>
+<rect x="663.8" y="490.6" width="64.0" height="39.4" fill="#b279a2"/>
+<title>No prov. false_unique_product_alerts: 10.000</title>
+<text x="695.8" y="483.6" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">10</text>
+<text x="695.8" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">No prov.</text>
+<rect x="803.2" y="411.8" width="64.0" height="118.2" fill="#4c78a8"/>
+<title>Typed rule false_unique_product_alerts: 30.000</title>
+<line x1="835.2" y1="403.9" x2="835.2" y2="419.7" stroke="#222" stroke-width="1.2"/>
+<line x1="831.2" y1="403.9" x2="839.2" y2="403.9" stroke="#222" stroke-width="1.2"/>
+<line x1="831.2" y1="419.7" x2="839.2" y2="419.7" stroke="#222" stroke-width="1.2"/>
+<text x="835.2" y="404.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">30</text>
+<text x="835.2" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Typed rule</text>
+<text x="540.0" y="392.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Deduplication readout</text>
+<text x="540.0" y="420.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Capacity shown: 16 analyst-hours/day.</text>
+<text x="540.0" y="442.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Hierarchy avoids 470 duplicate product alerts.</text>
+<text x="540.0" y="464.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Hierarchy unique false alerts: 11; typed rule: 30.</text>
+<text x="540.0" y="486.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Hierarchy p90 product delay: 214.9 h.</text>
+<text x="68.0" y="594.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">FIFO queue. Whiskers show 95% scenario-bootstrap intervals after product-alert deduplication.</text>
+</g>
+  <line x1="40" y1="1490" x2="1060" y2="1490" stroke="#ddd" stroke-width="2"/>
+  <text x="40" y="1540" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">C</text>
+  <text x="68" y="1540" font-family="Arial, sans-serif" font-size="16" fill="#444">Priority queues protect product response while exposing spillover backlog</text>
+  <g transform="translate(50 1560) scale(1.02040816326531)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42.0" y="36.0" font-family="Arial" font-size="20" font-weight="600" text-anchor="start" fill="#222">C. Priority queue policies for learned hierarchical routing</text>
+<text x="68.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">A. p90 product-investigation delay</text>
+<rect x="68" y="88" width="390" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="308.0" x2="458" y2="308.0" stroke="#e5e5e5"/>
+<text x="60.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="68" y1="253.0" x2="458" y2="253.0" stroke="#e5e5e5"/>
+<text x="60.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">114</text>
+<line x1="68" y1="198.0" x2="458" y2="198.0" stroke="#e5e5e5"/>
+<text x="60.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">229</text>
+<line x1="68" y1="143.0" x2="458" y2="143.0" stroke="#e5e5e5"/>
+<text x="60.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">343</text>
+<line x1="68" y1="88.0" x2="458" y2="88.0" stroke="#e5e5e5"/>
+<text x="60.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">457</text>
+<rect x="95.8" y="204.6" width="42.0" height="103.4" fill="#4c78a8"/>
+<title>FIFO p90_delay_to_product_investigation_hours: 214.896</title>
+<line x1="116.8" y1="116.7" x2="116.8" y2="264.0" stroke="#222" stroke-width="1.2"/>
+<line x1="112.8" y1="116.7" x2="120.8" y2="116.7" stroke="#222" stroke-width="1.2"/>
+<line x1="112.8" y1="264.0" x2="120.8" y2="264.0" stroke="#222" stroke-width="1.2"/>
+<text x="116.8" y="197.6" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">215</text>
+<text x="116.8" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">FIFO</text>
+<rect x="193.2" y="288.7" width="42.0" height="19.3" fill="#54a24b"/>
+<title>Product first p90_delay_to_product_investigation_hours: 40.124</title>
+<line x1="214.2" y1="288.5" x2="214.2" y2="292.2" stroke="#222" stroke-width="1.2"/>
+<line x1="210.2" y1="288.5" x2="218.2" y2="288.5" stroke="#222" stroke-width="1.2"/>
+<line x1="210.2" y1="292.2" x2="218.2" y2="292.2" stroke="#222" stroke-width="1.2"/>
+<text x="214.2" y="281.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">40</text>
+<text x="214.2" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product first</text>
+<rect x="290.8" y="288.7" width="42.0" height="19.3" fill="#b279a2"/>
+<title>Product+policy p90_delay_to_product_investigation_hours: 40.124</title>
+<line x1="311.8" y1="288.4" x2="311.8" y2="291.8" stroke="#222" stroke-width="1.2"/>
+<line x1="307.8" y1="288.4" x2="315.8" y2="288.4" stroke="#222" stroke-width="1.2"/>
+<line x1="307.8" y1="291.8" x2="315.8" y2="291.8" stroke="#222" stroke-width="1.2"/>
+<text x="311.8" y="281.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">40</text>
+<text x="311.8" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product+policy</text>
+<rect x="388.2" y="287.8" width="42.0" height="20.2" fill="#f58518"/>
+<title>Severity p90_delay_to_product_investigation_hours: 41.888</title>
+<line x1="409.2" y1="282.6" x2="409.2" y2="291.7" stroke="#222" stroke-width="1.2"/>
+<line x1="405.2" y1="282.6" x2="413.2" y2="282.6" stroke="#222" stroke-width="1.2"/>
+<line x1="405.2" y1="291.7" x2="413.2" y2="291.7" stroke="#222" stroke-width="1.2"/>
+<text x="409.2" y="280.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">42</text>
+<text x="409.2" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Severity</text>
+<text x="540.0" y="70.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">B. True product alerts resolved within 24h</text>
+<rect x="540" y="88" width="365" height="220" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="540" y1="308.0" x2="905" y2="308.0" stroke="#e5e5e5"/>
+<text x="532.0" y="312.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.0</text>
+<line x1="540" y1="253.0" x2="905" y2="253.0" stroke="#e5e5e5"/>
+<text x="532.0" y="257.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.2</text>
+<line x1="540" y1="198.0" x2="905" y2="198.0" stroke="#e5e5e5"/>
+<text x="532.0" y="202.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.5</text>
+<line x1="540" y1="143.0" x2="905" y2="143.0" stroke="#e5e5e5"/>
+<text x="532.0" y="147.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0.8</text>
+<line x1="540" y1="88.0" x2="905" y2="88.0" stroke="#e5e5e5"/>
+<text x="532.0" y="92.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">1.0</text>
+<rect x="564.6" y="245.1" width="42.0" height="62.9" fill="#4c78a8"/>
+<title>FIFO true_product_alerts_resolved_within_24h_rate: 0.286</title>
+<line x1="585.6" y1="222.0" x2="585.6" y2="258.0" stroke="#222" stroke-width="1.2"/>
+<line x1="581.6" y1="222.0" x2="589.6" y2="222.0" stroke="#222" stroke-width="1.2"/>
+<line x1="581.6" y1="258.0" x2="589.6" y2="258.0" stroke="#222" stroke-width="1.2"/>
+<text x="585.6" y="238.1" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.286</text>
+<text x="585.6" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">FIFO</text>
+<rect x="655.9" y="182.3" width="42.0" height="125.7" fill="#54a24b"/>
+<title>Product first true_product_alerts_resolved_within_24h_rate: 0.571</title>
+<line x1="676.9" y1="145.0" x2="676.9" y2="214.8" stroke="#222" stroke-width="1.2"/>
+<line x1="672.9" y1="145.0" x2="680.9" y2="145.0" stroke="#222" stroke-width="1.2"/>
+<line x1="672.9" y1="214.8" x2="680.9" y2="214.8" stroke="#222" stroke-width="1.2"/>
+<text x="676.9" y="175.3" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.571</text>
+<text x="676.9" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product first</text>
+<rect x="747.1" y="182.3" width="42.0" height="125.7" fill="#b279a2"/>
+<title>Product+policy true_product_alerts_resolved_within_24h_rate: 0.571</title>
+<line x1="768.1" y1="156.2" x2="768.1" y2="208.5" stroke="#222" stroke-width="1.2"/>
+<line x1="764.1" y1="156.2" x2="772.1" y2="156.2" stroke="#222" stroke-width="1.2"/>
+<line x1="764.1" y1="208.5" x2="772.1" y2="208.5" stroke="#222" stroke-width="1.2"/>
+<text x="768.1" y="175.3" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.571</text>
+<text x="768.1" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product+policy</text>
+<rect x="838.4" y="171.8" width="42.0" height="136.2" fill="#f58518"/>
+<title>Severity true_product_alerts_resolved_within_24h_rate: 0.619</title>
+<line x1="859.4" y1="145.4" x2="859.4" y2="206.5" stroke="#222" stroke-width="1.2"/>
+<line x1="855.4" y1="145.4" x2="863.4" y2="145.4" stroke="#222" stroke-width="1.2"/>
+<line x1="855.4" y1="206.5" x2="863.4" y2="206.5" stroke="#222" stroke-width="1.2"/>
+<text x="859.4" y="164.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">0.619</text>
+<text x="859.4" y="325.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Severity</text>
+<text x="68.0" y="367.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">C. Peak non-product backlog</text>
+<rect x="68" y="385" width="837" height="145" fill="none" stroke="#333" stroke-width="1"/>
+<line x1="68" y1="530.0" x2="905" y2="530.0" stroke="#e5e5e5"/>
+<text x="60.0" y="534.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">0</text>
+<line x1="68" y1="493.8" x2="905" y2="493.8" stroke="#e5e5e5"/>
+<text x="60.0" y="497.8" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">164</text>
+<line x1="68" y1="457.5" x2="905" y2="457.5" stroke="#e5e5e5"/>
+<text x="60.0" y="461.5" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">329</text>
+<line x1="68" y1="421.2" x2="905" y2="421.2" stroke="#e5e5e5"/>
+<text x="60.0" y="425.2" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">493</text>
+<line x1="68" y1="385.0" x2="905" y2="385.0" stroke="#e5e5e5"/>
+<text x="60.0" y="389.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="end" fill="#222">658</text>
+<rect x="143.6" y="412.8" width="58.0" height="117.2" fill="#4c78a8"/>
+<title>FIFO peak_non_product_backlog_hours: 531.750</title>
+<line x1="172.6" y1="409.2" x2="172.6" y2="415.4" stroke="#222" stroke-width="1.2"/>
+<line x1="168.6" y1="409.2" x2="176.6" y2="409.2" stroke="#222" stroke-width="1.2"/>
+<line x1="168.6" y1="415.4" x2="176.6" y2="415.4" stroke="#222" stroke-width="1.2"/>
+<text x="172.6" y="405.8" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">532</text>
+<text x="172.6" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">FIFO</text>
+<rect x="352.9" y="409.7" width="58.0" height="120.3" fill="#54a24b"/>
+<title>Product first peak_non_product_backlog_hours: 545.750</title>
+<line x1="381.9" y1="405.2" x2="381.9" y2="413.0" stroke="#222" stroke-width="1.2"/>
+<line x1="377.9" y1="405.2" x2="385.9" y2="405.2" stroke="#222" stroke-width="1.2"/>
+<line x1="377.9" y1="413.0" x2="385.9" y2="413.0" stroke="#222" stroke-width="1.2"/>
+<text x="381.9" y="402.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">546</text>
+<text x="381.9" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product first</text>
+<rect x="562.1" y="409.7" width="58.0" height="120.3" fill="#b279a2"/>
+<title>Product+policy peak_non_product_backlog_hours: 545.750</title>
+<line x1="591.1" y1="403.9" x2="591.1" y2="412.1" stroke="#222" stroke-width="1.2"/>
+<line x1="587.1" y1="403.9" x2="595.1" y2="403.9" stroke="#222" stroke-width="1.2"/>
+<line x1="587.1" y1="412.1" x2="595.1" y2="412.1" stroke="#222" stroke-width="1.2"/>
+<text x="591.1" y="402.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">546</text>
+<text x="591.1" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Product+policy</text>
+<rect x="771.4" y="409.7" width="58.0" height="120.3" fill="#f58518"/>
+<title>Severity peak_non_product_backlog_hours: 545.750</title>
+<line x1="800.4" y1="408.0" x2="800.4" y2="411.6" stroke="#222" stroke-width="1.2"/>
+<line x1="796.4" y1="408.0" x2="804.4" y2="408.0" stroke="#222" stroke-width="1.2"/>
+<line x1="796.4" y1="411.6" x2="804.4" y2="411.6" stroke="#222" stroke-width="1.2"/>
+<text x="800.4" y="402.7" font-family="Arial" font-size="10" font-weight="500" text-anchor="middle" fill="#222">546</text>
+<text x="800.4" y="547.0" font-family="Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#222">Severity</text>
+<text x="540.0" y="392.0" font-family="Arial" font-size="15" font-weight="600" text-anchor="start" fill="#222">Priority readout</text>
+<text x="540.0" y="420.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Capacity shown: 16 analyst-hours/day.</text>
+<text x="540.0" y="442.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">FIFO p90 product delay: 214.9 h.</text>
+<text x="540.0" y="464.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Product-first p90 delay: 40.1 h.</text>
+<text x="540.0" y="486.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Product-first 24h resolution: 0.571.</text>
+<text x="68.0" y="594.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#222">Whiskers show 95% scenario-bootstrap intervals. Panel C shows spillover backlog outside product investigations.</text>
+</g>
+</svg>
+

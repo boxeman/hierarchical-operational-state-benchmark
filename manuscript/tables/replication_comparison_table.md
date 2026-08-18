@@ -1,0 +1,17 @@
+﻿# Replication Comparison Table
+
+Comparison between `outputs/prototype_package` and `outputs/large_replication`.
+
+| layer | metric | default_result | large_replication_result | stable_or_changed | interpretation |
+| --- | --- | --- | --- | --- | --- |
+| Account review | learned hierarchy vs learned flat at 15% review budget | HW recall 0.585 vs 0.453; precision 1.000 vs 0.907 | HW recall 0.570 vs 0.448; precision 1.000 vs 0.906 | stable | The account-review claim survives if hierarchy keeps higher harm-weighted recall without losing precision. |
+| State components | full hierarchy suppresses ablation-specific hard negatives | full vs ablated false rates: uncertainty 0.000 vs 0.931; signature 0.247 vs 1.000; provenance 0.000 vs 1.000 | full vs ablated false rates: uncertainty 0.000 vs 0.955; signature 0.231 vs 0.983; provenance 0.017 vs 0.997 | stable | The component claim survives: uncertainty, signature/campaign, and provenance remain useful in matched failure modes. |
+| Calibration | learned hierarchy calibration vs learned flat | ECE 0.037 vs 0.077; Brier 0.024 vs 0.099 | ECE 0.027 vs 0.054; Brier 0.022 vs 0.097 | stable | The calibration claim survives if hierarchy retains lower ECE and Brier score. |
+| System alerts | typed hierarchy vs signature mean-risk exploit rank | hit 0.000 vs 0.000; rank 9.625 vs 12.000 | hit 0.188 vs 0.188; rank 8.438 vs 10.031 | stable | The ranking improvement survives, but top-k alerting remains fragile because hit rate does not clearly separate methods. |
+| Routing | validation-tuned learned hierarchy vs learned flat | macro F1 0.795 vs 0.690; utility 1.451 vs 0.183 | macro F1 0.770 vs 0.699; utility -0.011 vs -2.731 | stable | The routing claim survives: hierarchy retains better escalation quality than flat routing. |
+| False-systemic stress | adversarial benign lookalikes routed to product investigation | learned hierarchy 0.025 vs typed rule 0.506 | learned hierarchy 0.019 vs typed rule 0.211 | stable | The learned hierarchy continues to suppress benign coordinated product alerts better than brittle rule hierarchy. |
+| Product-alert frontier | high false-alert penalty trades recall for fewer false systemic alerts | low penalty missed 128, false 4; high penalty missed 153, false 0 | low penalty missed 1054, false 16; high penalty missed 1110, false 1 | stable | The operating frontier survives: suppressing benign systemic alerts costs additional missed product investigations. |
+| Workload/time-to-alert | learned hierarchy vs typed rule workload and false product investigations | analyst hours 1891.500 vs 4324.750; false product 122 vs 1007 | analyst hours 7003.000 vs 9663.750; false product 448 vs 1471 | stable | The practical workload claim survives, though absolute workload grows substantially in the larger run. |
+| Deduplicated backlog | learned hierarchy vs typed rule finite-capacity queue burden | peak backlog 545.500 vs 1118.750; false unique alerts 11 vs 30 | peak backlog 2875.000 vs 5819.750; false unique alerts 33 vs 72 | stable | The deduplicated backlog claim survives, but capacity pressure is much larger in the replication run. |
+| Priority queues | product-first queue vs FIFO for learned hierarchy | p90 delay 40.124h vs 214.896h; 48h resolution 1.000 vs 0.476 | p90 delay 160.753h vs 1581.950h; 48h resolution 0.219 vs 0.123 | stable | The priority-queue claim survives directionally, but the larger run shows much longer product delays under finite capacity. |
+
