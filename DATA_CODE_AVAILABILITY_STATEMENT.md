@@ -21,11 +21,18 @@ The manuscript release candidate is archived as GitHub release `v0.1.0`:
 
 https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
 
+The benchmark can be rerun using the named configuration files:
+`configs/smoke_test_config.json`, `configs/default_manuscript_config.json`,
+and `configs/large_replication_config.json`. Run instructions are documented in
+`RUN_EXPERIMENTS.md`, and the configuration fields are documented in
+`EXPERIMENT_CONFIG.md`.
+
 The lean submission bundle contains the editor-facing manuscript materials,
 including the Word manuscript, rendered PDF, main figures, graphical abstract,
 compact tables, Methods package, cover letter, and availability/ethics
 statements. The full reviewer/audit package contains code, configurations,
 resolved outputs, full CSV tables, and reproducibility artifacts.
 
-A DOI-backed archive should be added if the repository is later deposited through
-Zenodo or another archival service.
+A DOI-backed archive has not yet been assigned. If the repository is deposited
+through Zenodo or another archival service, the DOI should be added to this
+statement, the manuscript, the cover letter, and `CITATION.cff`.
