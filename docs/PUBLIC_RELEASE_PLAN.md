@@ -301,7 +301,7 @@ Create `CITATION.cff` with:
 - release date
 - preferred citation text
 
-Placeholder citation before DOI:
+Current citation metadata:
 
 ```yaml
 cff-version: 1.2.0
@@ -310,8 +310,11 @@ message: "If you use this benchmark, please cite the manuscript and archived rel
 authors:
   - family-names: "Blaszczak-Boxe"
     given-names: "Christopher"
-version: "0.1.0"
-date-released: "2026-08-17"
+version: "0.1.1"
+date-released: "2026-08-18"
+doi: "10.5281/zenodo.21988606"
+url: "https://doi.org/10.5281/zenodo.21988606"
+repository-code: "https://github.com/boxeman/hierarchical-operational-state-benchmark"
 ```
 
 ## Data/Code Availability Update
@@ -319,17 +322,12 @@ date-released: "2026-08-17"
 The public GitHub repository and release page are now available:
 
 - Repository: https://github.com/boxeman/hierarchical-operational-state-benchmark
-- GitHub release `v0.1.0`: https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
+- DOI-archived release: https://doi.org/10.5281/zenodo.21988606
+- GitHub release `v0.1.1`: https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1
 
 Current manuscript-facing wording:
 
-> Code and synthetic benchmark materials are available at:
-> https://github.com/boxeman/hierarchical-operational-state-benchmark
->
-> The manuscript release candidate is archived as GitHub release `v0.1.0`:
-> https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
-
-A DOI-backed archive should be added if the repository is later deposited through Zenodo or another archival service.
+> Code and synthetic benchmark materials are available at https://github.com/boxeman/hierarchical-operational-state-benchmark. The DOI-archived release is available at https://doi.org/10.5281/zenodo.21988606, corresponding to GitHub release `v0.1.1` at https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1.
 
 ## Public Release Checklist
 
@@ -347,12 +345,12 @@ A DOI-backed archive should be added if the repository is later deposited throug
 - [x] Run default manuscript config or document expected runtime.
 - [x] Create GitHub repository.
 - [x] Create release tag.
-- [ ] Archive on Zenodo.
+- [x] Archive on Zenodo.
 - [x] Update `DATA_CODE_AVAILABILITY_STATEMENT.md`.
-- [x] Update manuscript and submission materials with repository/release link.
+- [x] Update manuscript and submission materials with repository/release/DOI link.
 
 ## Immediate Next Action
 
 The next implementation step after this plan should be:
 
-**Create a DOI-backed archive, preferably through Zenodo, and then update the citation metadata and manuscript availability statement with the DOI.**
+**Keep the DOI, GitHub release, manuscript export, and submission bundle synchronized during any future revision.**

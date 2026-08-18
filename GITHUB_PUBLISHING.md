@@ -20,6 +20,15 @@ hierarchical-operational-state-benchmark
   - `human-review`
   - `workflow-simulation`
 
+## Current Published State
+
+The repository is now public and DOI-archived:
+
+- Repository: https://github.com/boxeman/hierarchical-operational-state-benchmark
+- GitHub release `v0.1.1`: https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.21988606
+- Zenodo concept DOI: `10.5281/zenodo.21988605`
+
 ## Publish From Local Repository
 
 After creating an empty GitHub repository, run:
@@ -27,7 +36,7 @@ After creating an empty GitHub repository, run:
 ```powershell
 git remote add origin https://github.com/<your-github-username>/hierarchical-operational-state-benchmark.git
 git push -u origin main
-git push origin v0.1.0
+git push origin v0.1.1
 ```
 
 If the remote already exists:
@@ -35,7 +44,7 @@ If the remote already exists:
 ```powershell
 git remote set-url origin https://github.com/<your-github-username>/hierarchical-operational-state-benchmark.git
 git push -u origin main
-git push origin v0.1.0
+git push origin v0.1.1
 ```
 
 ## Verify After Push
@@ -48,23 +57,26 @@ On GitHub:
 - Confirm manuscript figures and tables are present.
 - Confirm `RELEASE_NOTES.md`, `CITATION.cff`, `LICENSE`, and `SECURITY_AND_SAFETY.md` are visible.
 
-## Suggested First Release
+## DOI Archive Release
 
-Create a GitHub release from tag:
+The DOI archive release is:
 
 ```text
-v0.1.0
+v0.1.1
 ```
 
 Release title:
 
 ```text
-v0.1.0 - Manuscript release candidate
+v0.1.1 - DOI archive release
 ```
 
 Release description:
 
 ```text
-Synthetic benchmark release supporting smoke, manuscript-scale, and large-replication configurations for evaluating flat versus hierarchical operational-state monitoring, escalation routing, and analyst workload.
-```
+DOI archive release for the manuscript-facing benchmark package.
 
+This release preserves the synthetic benchmark for hierarchical operational-state monitoring of AI misuse, including named configs, smoke-test workflow, manuscript-facing documentation, citation metadata, and data/code availability materials.
+
+All data are synthetic. This is not a production misuse detector or deployment validation study.
+```

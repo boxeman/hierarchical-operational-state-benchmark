@@ -6,16 +6,20 @@ Code and synthetic benchmark materials are available at:
 
 https://github.com/boxeman/hierarchical-operational-state-benchmark
 
-The manuscript release candidate is archived as GitHub release `v0.1.0`:
+The DOI-archived release is available at:
 
-https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
+https://doi.org/10.5281/zenodo.21988606
+
+This DOI corresponds to GitHub release `v0.1.1`:
+
+https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1
 
 ## Manuscript Integration
 
-The manuscript now treats the GitHub repository and tagged release as the
-current reproducibility artifact. The Data and Code Availability section states
-that all data are synthetic, identifies the public repository, points to the
-`v0.1.0` release, and names the benchmark components included in the code.
+The manuscript now treats the GitHub repository and Zenodo DOI as the current
+reproducibility artifact. The Data and Code Availability section states that all
+data are synthetic, identifies the public repository, points to the DOI-archived
+`v0.1.1` release, and names the benchmark components included in the code.
 
 The Methods section includes a `Software and Reproducibility` subsection that
 identifies the rerunnable configurations:
@@ -30,8 +34,12 @@ configuration-format guide.
 
 ## DOI Status
 
-A DOI-backed archive has not yet been assigned. If the repository is deposited
-through Zenodo or another archival service, update:
+Zenodo has assigned the version DOI `10.5281/zenodo.21988606` for the
+DOI-archived release. The concept DOI for all versions is
+`10.5281/zenodo.21988605`.
+
+The following materials have been updated or should be kept synchronized with
+the version DOI:
 
 - `MANUSCRIPT_DRAFT.md`
 - `DATA_CODE_AVAILABILITY_STATEMENT.md`
@@ -42,10 +50,11 @@ through Zenodo or another archival service, update:
 
 ## Current Citation Language
 
-Use the following text until a DOI exists:
+Use the following text for manuscript and submission materials:
 
 > Code and synthetic benchmark materials are available at
 > https://github.com/boxeman/hierarchical-operational-state-benchmark. The
-> manuscript release candidate is archived as GitHub release `v0.1.0` at
-> https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0.
-
+> DOI-archived release is available at
+> https://doi.org/10.5281/zenodo.21988606, corresponding to GitHub release
+> `v0.1.1` at
+> https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1.

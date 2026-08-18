@@ -1,5 +1,28 @@
 # Release Notes
 
+## v0.1.1 - DOI Archive Release
+
+This release preserves the manuscript-facing benchmark package after Zenodo was
+enabled for the public repository.
+
+### DOI
+
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.21988606
+- GitHub release: https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1
+
+### Included
+
+- Synthetic benchmark code and named configurations.
+- Smoke-test workflow and minimal test suite.
+- Manuscript-facing documentation.
+- Citation metadata updated for Zenodo DOI archiving.
+- Data/code availability materials updated for the DOI-archived release.
+
+### Scope
+
+All data are synthetic. This release is not a production misuse detector or
+deployment validation study.
+
 ## v0.1.0 - Manuscript Release Candidate
 
 This first release candidate packages the synthetic mechanism benchmark used to evaluate when hierarchical operational state improves AI misuse monitoring relative to flat scoring and simpler aggregate baselines.

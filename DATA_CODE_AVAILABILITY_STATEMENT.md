@@ -17,9 +17,13 @@ Code and synthetic benchmark materials are available at:
 
 https://github.com/boxeman/hierarchical-operational-state-benchmark
 
-The manuscript release candidate is archived as GitHub release `v0.1.0`:
+The DOI-archived release is available at:
 
-https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.0
+https://doi.org/10.5281/zenodo.21988606
+
+This DOI corresponds to GitHub release `v0.1.1`:
+
+https://github.com/boxeman/hierarchical-operational-state-benchmark/releases/tag/v0.1.1
 
 The benchmark can be rerun using the named configuration files:
 `configs/smoke_test_config.json`, `configs/default_manuscript_config.json`,
@@ -33,6 +37,6 @@ compact tables, Methods package, cover letter, and availability/ethics
 statements. The full reviewer/audit package contains code, configurations,
 resolved outputs, full CSV tables, and reproducibility artifacts.
 
-A DOI-backed archive has not yet been assigned. If the repository is deposited
-through Zenodo or another archival service, the DOI should be added to this
-statement, the manuscript, the cover letter, and `CITATION.cff`.
+The Zenodo concept DOI for all versions is `10.5281/zenodo.21988605`. The
+version DOI above should be used when citing the exact manuscript-facing release
+used for this study.
